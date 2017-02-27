@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  font-size: 100%;
+  font-weight: normal;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+  // Ovo je vazno
+  // Resava razlike medju browserima
+  box-sizing: border-box;
+}
